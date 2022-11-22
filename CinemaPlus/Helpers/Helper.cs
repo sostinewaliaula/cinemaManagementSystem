@@ -457,7 +457,7 @@ namespace CinemaPlus.Helpers
 
         public static void ReadMoviesFromFiles()
         {
-            var date = DateTime.Today;
+            var date = DateTime.Parse("11/12/2022");
             List<Movie> movies = new List<Movie>();
             foreach (var cinema in App.Cinemas)
             {
